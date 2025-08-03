@@ -1,11 +1,10 @@
-#include <stdio.h>
 //Score, Grade
+#include <stdio.h>
 int main() {
     int score;
     printf("Enter your score: ");
     scanf("%d", &score);
     
-    // Write your code below
     if(score > 100 || score < 0) {
         printf("Invalide Score\n");
     }else if(score <= 100 && score >= 0) {
@@ -32,4 +31,5 @@ int main() {
         printf("Status: %s\n", status);
     }
     return 0;
+
 }
