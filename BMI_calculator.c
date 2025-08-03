@@ -1,7 +1,6 @@
+//BMI_calculator
 #include <stdio.h>
-//BMI
 int main() {
-    // Declare variables for weight and height and read and validate input
     float weight;
     printf("Enter Weight(Kg): ");
     if (scanf("%f", &weight) != 1) {
@@ -45,4 +44,5 @@ int main() {
     }
 
     return 0;
+
 }
