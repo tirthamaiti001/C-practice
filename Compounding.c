@@ -1,7 +1,6 @@
+//compounding
 #include<stdio.h>
 #include<math.h>
-//compounding
-
 float main() {
     float P;
     printf("Enter Principle (P):");
@@ -25,4 +24,5 @@ float main() {
     printf("Total Tax: %f \n", A-P);
 
     return 0;
+
 }
