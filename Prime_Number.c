@@ -1,5 +1,5 @@
+//Prime Number
 #include <stdio.h>
-//prime number
 // Function to check if a number is prime
 int isPrime(int a) {
     if (a < 2) return 0;
@@ -23,8 +23,12 @@ int sumOfPrimes(int b, int c) {
 }
 
 int main() {
-    int b, c;
-    scanf("%d %d", &b, &c);
+    int b;
+    printf("Enter 1st number: \n");
+    scanf("%d", &b);
+    int c;
+    printf("Enter 2nd number: \n");
+    scanf("%d", &c);
 
     // Validate input
     if (b > 0 && c > 0 && b < c) {
@@ -36,3 +40,4 @@ int main() {
 
     return 0;
 }
+
