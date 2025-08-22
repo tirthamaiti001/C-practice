@@ -7,6 +7,6 @@
 - Loops
 - Functions
 - Recursion
-- Arays
+- Arrays
 
 More coming soon...
