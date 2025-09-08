@@ -4,9 +4,11 @@
 
 ### ✅ Topics Covered
 - Variables & Data Types
+- Conditional Statements
 - Loops
 - Functions
 - Recursion
+- Pointers
 - Arrays
-
-More coming soon...
+- Strings
+- Structures
